@@ -1,0 +1,83 @@
+.circles{
+     position: relative;
+}
+.circle-blue-one{
+     width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     background: #625aff;
+     position: absolute;
+     top: 70px;
+     left: -50%;
+     z-index: 1;
+}
+.circle-blue-two{
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     background: #625aff;
+     position: absolute;
+     z-index: 1;
+     top: 160px;
+     left: -30%;
+}
+.circle-orange{
+     width: 130px;
+     height: 130px;
+     border-radius: 50%;
+     background: #ffaf7e;
+     position: absolute;
+     top: 130px;
+     left: -35%;
+     z-index: 5;
+}
+.circle-pink-one{
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     background: #f9818d;
+     position: absolute;
+     top: 130px;
+     right: -5%;
+     z-index: 3;
+}
+.circle-pink-two{
+     width: 250px;
+     height: 250px;
+     border-radius: 50%;
+     background: #f9818d;
+     position: absolute;
+     top: 170px;
+     right: -20%;
+     z-index: 3;
+}
+.lines{
+     position: relative;
+}
+.line{
+     width: 30px;
+     height: 5px;
+     border-radius: 5px;
+     background: #f1f1f1;
+}
+.line1{
+     position: absolute;
+     top: 130px;
+     left: 55%;
+     z-index: 10;
+     transform: rotate(-50deg);
+}
+.line2{
+     position: absolute;
+     top: 145px;
+     left: 70%;
+     z-index: 10;
+     transform: rotate(60deg);
+}
+.line3{
+     position: absolute;
+     top: 180px;
+     left: 60%;
+     z-index: 10;
+     transform: rotate(-35deg);
+}

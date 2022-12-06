@@ -1,0 +1,19 @@
+.buttons-group{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.btn{
+     width: 150px;
+     height: 50px;
+     border-radius: 8px;
+     padding: 10px 15px;
+     border: none;
+}
+.prev-btn{
+     color: #9fa0a7;
+}
+.next-btn{
+     color: #f1f1f1;
+     background: #032858;
+}
