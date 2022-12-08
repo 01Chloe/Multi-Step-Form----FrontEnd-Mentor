@@ -17,3 +17,10 @@
      color: #f1f1f1;
      background: #032858;
 }
+
+@media screen and (max-width: 400px) {
+     .btn{
+          width: 130px;
+          height: 40px;
+     }
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+form{
+     border: 1px solid #022452;
+     border-radius: 20px;
+     height: auto;
+     width: auto;
+     padding: 20px 50px;
+     margin: 50px auto;
+     color: #032858;
+}
+.input-group{
+     margin: 10px auto;
+     font-size: 18px;
+}
+label{
+     margin-right: 15px;
+}
+input{
+     padding: 5px 10px;
+     border-radius: 8px;
+     border: 1px solid #022452;
+     font-family: 'Mulish', sans-serif;
+}
+input::placeholder{
+     color: #1d324f;
+     opacity: 0.6;
+}
+.icon1{
+     color: #faaf82;
+}
+.icon2{
+     color: #fb7f90;
+}
+.icon3{
+     color: #443cff;
+}
+.submitBtn{
+     width: 100px;
+     height: 50px;
+     background: #022452;
+     color: #f1f1f1;
+     border-radius: 8px;
+     display: block;
+     margin: 15px auto;
+}

@@ -1,0 +1,16 @@
+.summaryImg{
+     width: 400px;
+     height: auto;
+}
+.recap{
+     text-align: center;
+     color: #022452;
+     font-size: 18px;
+     margin: 15px 0 50px;
+}
+
+@media screen and (max-width: 500px) {
+     .summaryImg{
+          width: 280px;
+     }
+}

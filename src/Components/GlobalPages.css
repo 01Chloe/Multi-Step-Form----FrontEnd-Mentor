@@ -8,3 +8,13 @@ h3{
      color: #022452;
      opacity: 0.6;
 }
+
+.hide{
+     display: none;
+}
+
+@media screen and (max-width: 1150px) {
+     .global-pages{
+          margin: 0 auto;
+     }
+}

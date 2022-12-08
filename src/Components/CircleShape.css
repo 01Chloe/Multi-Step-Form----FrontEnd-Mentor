@@ -81,3 +81,56 @@
      z-index: 10;
      transform: rotate(-35deg);
 }
+
+@media screen and (max-width: 1150px) {
+     .circle-blue-one{
+          top: -180px;
+          left: 90%;
+     }
+     .circle-blue-two{
+          top: -100px;
+          left: 70%;
+     }
+     .circle-orange{
+          top: -100px;
+          left: 95%;
+     }
+     .circle-pink-one{
+          top: -240px;
+          right: -10%;
+     }
+     .circle-pink-two{
+          top: -470px;
+          right: -20%;
+     }
+     .line1{
+          top: -200px;
+          left: 90%;
+     }
+     .line2{
+          top: -150px;
+          left: 88%;
+     }
+     .line3{
+          top: -180px;
+          left: 94%;
+     }
+}
+@media screen and (max-width: 780px){
+     .circle-pink-one{
+          top: -250px;
+     }
+     .circle-pink-two{
+          top: -450px;
+     }
+}
+@media screen and (max-width: 655px) {
+     .circle-pink-two{
+          right: -50%;
+     }
+}
+@media screen and (max-width: 400px) {
+     .circle-pink-two{
+          right: -60%;
+     }
+}

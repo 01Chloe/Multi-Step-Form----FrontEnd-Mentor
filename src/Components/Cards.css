@@ -13,6 +13,7 @@
      padding: 20px;
      margin: 30px 10px;
      cursor: pointer;
+     transition: all 0.3s ease-out;
 }
 .selectCard{
      background: #f8f9fe;
@@ -48,4 +49,69 @@
      color: #1d324f;
      font-weight: 700;
      opacity: 0.6;
+}
+
+.select-option{
+     background: #f8f9fe;
+     width: 100%;
+     height: 70px;
+     border-radius: 20px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-bottom: 50px;
+}
+.select-option p{
+     font-size: 18px;
+     color: #afafb9;
+     font-weight: 700;
+     transition: color 0.3s ease-out;
+}
+.select-option .option-selected{
+     color: #001432;
+}
+.select-big{
+     width: 50px;
+     height: 25px;
+     border-radius: 20px;
+     background: #02295c;
+     position: relative;
+     cursor: pointer;
+}
+.select-little-left{
+     width: 18px;
+     height: 18px;
+     border-radius: 50%;
+     background: #f1f1f1;
+     position:absolute;
+     top: 3px;
+     left: 5px;
+     z-index: 3;
+     transition: transform 0.3s ease-out;
+}
+.select-little-right{
+     width: 18px;
+     height: 18px;
+     border-radius: 50%;
+     background: #f1f1f1;
+     position:absolute;
+     top: 3px;
+     left: 5px;
+     transform: translateX(22px);
+     z-index: 3;
+     transition: transform 0.3s ease-out;
+}
+
+@media screen and (max-width: 1150px) {
+     .cards-container{
+          margin: 50px auto 10px;
+     }
+}
+@media screen and (max-width: 580px) {
+     .cards-group{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
 }

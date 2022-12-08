@@ -1,0 +1,17 @@
+img{
+     padding: 50px 15px;
+     width: 400px;
+     height: auto;
+}
+.infos{
+     font-size: 20px;
+     color: #022452;
+     text-align: center;
+     margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+     img{
+          width: 250px;
+     }
+}

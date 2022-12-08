@@ -26,6 +26,7 @@ button{
      font-size: 18px;
      font-weight: 700;
      cursor: pointer;
+     transition: all 0.3s ease-out;
 }
 .active-btn{
      background: #bce1ff;
@@ -39,4 +40,29 @@ button{
 .title-group h2{
      margin: 5px 0;
      font-size: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+     .side-navbar{
+          width: 80vw;
+          height: 350px;
+          margin: 30px auto;
+     }
+}
+@media screen and (max-width: 520px) {
+     .step{
+          grid-template-columns: 25% 75%;
+     }
+}
+@media screen and (max-width: 450px){
+     button{
+          width: 40px;
+          height: 40px;
+     }
+     .title-group p{
+          font-size: 12px
+     }
+     .title-group h2{
+          font-size: 15px;
+     }
 }

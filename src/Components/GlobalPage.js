@@ -2,14 +2,37 @@ import React from 'react'
 import './GlobalPages.css'
 import Cards from './Cards' 
 import Buttons from './Buttons'
+import Form from './Form'
+import AddOns from './AddOns'
+import Summary from './Summary'
 
-export default function GlobalPages() {
+export default function GlobalPages( {btnActive, setBtnActive, functionChangeActiveBtn} ) {
      return(
-          <div className='global-page'>
-               <h1>Select your plan</h1>
-               <h3>You have the option of monthly or yearly billing.</h3>
-               <Cards />
-               <Buttons />
+          <div className='global-pages'>
+               <div className={btnActive === 1 ? '' : 'hide'}>
+                    <h1>Your infos</h1>
+                    <h3>You can enter your personals informations</h3>
+                    <Form />
+                    <Buttons btnActive={btnActive} setBtnActive={setBtnActive} functionChangeActiveBtn={functionChangeActiveBtn} />
+               </div>
+               <div className={btnActive === 2 ? '' : 'hide'}>
+                    <h1>Select your plan</h1>
+                    <h3>You have the option of monthly or yearly billing.</h3>
+                    <Cards />
+                    <Buttons btnActive={btnActive} setBtnActive={setBtnActive} functionChangeActiveBtn={functionChangeActiveBtn} />
+               </div>
+               <div className={btnActive === 3 ? '' : 'hide'}>
+                    <h1>Add ons</h1>
+                    <h3>You can add your friends</h3>
+                    <AddOns />
+                    <Buttons btnActive={btnActive} setBtnActive={setBtnActive} functionChangeActiveBtn={functionChangeActiveBtn} />
+               </div>
+               <div className={btnActive === 4 ? '' : 'hide'}>
+                    <h1>Summary</h1>
+                    <h3>Here you have a recap.</h3>
+                    <Summary />
+                    <Buttons btnActive={btnActive} setBtnActive={setBtnActive} functionChangeActiveBtn={functionChangeActiveBtn} />
+               </div>
           </div>
      )
 }
