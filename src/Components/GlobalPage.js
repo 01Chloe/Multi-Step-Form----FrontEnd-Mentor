@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './GlobalPages.css'
 import Cards from './Cards' 
 import Buttons from './Buttons'
@@ -7,12 +7,17 @@ import AddOns from './AddOns'
 import Summary from './Summary'
 
 export default function GlobalPages( {btnActive, setBtnActive, functionChangeActiveBtn} ) {
+
+     const [name, setName] = useState("")
+     const [phone, setPhone] = useState("")
+     const [email, setEmail] = useState("")
+
      return(
           <div className='global-pages'>
                <div className={btnActive === 1 ? '' : 'hide'}>
                     <h1>Your infos</h1>
                     <h3>You can enter your personals informations</h3>
-                    <Form />
+                    <Form name={name} setName={setName} phone={phone} setPhone={setPhone} email={email} setEmail={setEmail} />
                     <Buttons btnActive={btnActive} setBtnActive={setBtnActive} functionChangeActiveBtn={functionChangeActiveBtn} />
                </div>
                <div className={btnActive === 2 ? '' : 'hide'}>
@@ -30,7 +35,7 @@ export default function GlobalPages( {btnActive, setBtnActive, functionChangeAct
                <div className={btnActive === 4 ? '' : 'hide'}>
                     <h1>Summary</h1>
                     <h3>Here you have a recap.</h3>
-                    <Summary />
+                    <Summary name={name} setName={setName} phone={phone} setPhone={setPhone} email={email} setEmail={setEmail} />
                     <Buttons btnActive={btnActive} setBtnActive={setBtnActive} functionChangeActiveBtn={functionChangeActiveBtn} />
                </div>
           </div>

@@ -9,6 +9,10 @@
      border-radius: 8px;
      padding: 10px 15px;
      border: none;
+     transition: transform 0.3s ease-out;
+}
+.btn:active{
+     transform: scale(0.97);
 }
 .prev-btn{
      color: #9fa0a7;
@@ -16,6 +20,10 @@
 .next-btn{
      color: #f1f1f1;
      background: #032858;
+     margin-left: auto;
+}
+.hide{
+     display: none;
 }
 
 @media screen and (max-width: 400px) {

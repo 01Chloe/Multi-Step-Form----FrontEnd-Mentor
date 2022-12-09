@@ -1,12 +1,19 @@
 .summaryImg{
-     width: 400px;
+     width: 300px;
      height: auto;
+}
+.recapOfInfos{
+     text-align: center;
+     color: #022452;
+     opacity: 0.9;
+     font-size: 15px;
+     margin: 10px 0;
 }
 .recap{
      text-align: center;
      color: #022452;
      font-size: 18px;
-     margin: 15px 0 50px;
+     margin: 15px 0 63px;
 }
 
 @media screen and (max-width: 500px) {

@@ -3,13 +3,6 @@ import './Navigation.css'
 import CircleShape from './CircleShape'
 
 export default function Navigation( {btnActive, functionChangeActiveBtn} ) {
-
-     // const [btnActive, setBtnActive] = useState(2)
-
-     // const functionChangeActiveBtn = (index) => {
-     //      setBtnActive(index)
-     // }
-
   return (
     <nav className='side-navbar'>
      <div className='step'>
