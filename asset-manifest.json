@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Multi-Step-Form----FrontEnd-Mentor/static/css/main.d9526cf0.css",
+    "main.js": "/Multi-Step-Form----FrontEnd-Mentor/static/js/main.a8493fd4.js",
+    "static/media/summaryImg.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/summaryImg.746cf4ad90c83f0dcd4cf7433931dc13.svg",
+    "static/media/addUsers.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/addUsers.5c75d13054162a71adb0fefcedf1287c.svg",
+    "static/media/dice-solid.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/dice-solid.f01602c4cdde908060b65c68f911f596.svg",
+    "static/media/playstation.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/playstation.3b6171bc0c5ee40020aae36630b5eb9f.svg",
+    "index.html": "/Multi-Step-Form----FrontEnd-Mentor/index.html",
+    "static/media/at-solid.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/at-solid.558ed5f1d997223101e691232e88cef0.svg",
+    "static/media/gamepad-solid.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/gamepad-solid.a2edc8426af627573f2024ce564c0e5d.svg",
+    "static/media/phone-solid.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/phone-solid.ffa72ae2f21812121fb93981c2ee3d9b.svg",
+    "static/media/user-solid.svg": "/Multi-Step-Form----FrontEnd-Mentor/static/media/user-solid.843eef4a141059b0dc930d4f7fdb4ae9.svg",
+    "main.d9526cf0.css.map": "/Multi-Step-Form----FrontEnd-Mentor/static/css/main.d9526cf0.css.map",
+    "main.a8493fd4.js.map": "/Multi-Step-Form----FrontEnd-Mentor/static/js/main.a8493fd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9526cf0.css",
+    "static/js/main.a8493fd4.js"
+  ]
+}
